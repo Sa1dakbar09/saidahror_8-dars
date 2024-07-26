@@ -1,0 +1,68 @@
+h1 {
+    font-family: Libre Baskerville;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 73.6px;
+    text-align: center;
+
+}
+
+main p {
+    font-family: Oxygen;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36.3px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: #EFEEE8;
+}
+
+.box {
+    padding: 130px 250px;
+}
+
+@mixin btn($bg_color, $btn_w, $btn_h) {
+    background-color: $bg_color;
+    width: $btn_w;
+    height: $btn_h;
+    border: 1px solid transparent;
+    color: white;
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover {
+        background-color: chocolate;
+        border-radius: 10px;
+        transition: .5s;
+        color: black;
+    }
+}
+
+main button {
+
+    @include btn(#333333 242px, 64px)
+}
+
+img {
+    width: 1349px;
+    height: 600px;
+    margin: 0px auto;
+}
+
+
+
+.fa-arrow-right {
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+}

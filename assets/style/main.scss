@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family: Oxygen;
+    src: url(../fonts/Oxygen/Oxygen-Regular.ttf);
+}
+
+body {
+    background-color: #EFEEE8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+@import "./header";
+
+@import "./hero";
+
+@import "./section_1";
+@import "./section_2";
+@import "./sec_3";
+@import "./footer";
